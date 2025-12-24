@@ -369,7 +369,7 @@ public class DownloadPhotoIntentService extends Service {
         if (!start){ // end service
             deleteProgressListItem(url);
         }
-
+        msg.setPackage(getPackageName());
         context.sendBroadcast(msg);
     }
 
