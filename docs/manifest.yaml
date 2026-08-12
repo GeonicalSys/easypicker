@@ -1,0 +1,19 @@
+schema_version: 1
+module_id: easypicker-module
+repository_id: easypicker
+maturity: maintained
+last_verified: 2026-07-19
+entrypoints:
+  - easypicker/easypicker/src/main/AndroidManifest.xml
+key_components:
+  - path: easypicker/easypicker/src/main
+    responsibility: Android picker UI implementation and resources.
+public_contracts: []
+settings_refs: []
+storage_contracts: []
+invariant_refs: []
+global_docs:
+  - docs/architecture/overview.md
+  - docs/runbooks/upstream-sync.md
+smoke_tests: [AUTO-MAPLIBUI-ASSEMBLE, AUTO-APP-RELEASES]
+upstream_hotspots: []
