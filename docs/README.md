@@ -1,7 +1,7 @@
 ---
 title: easypicker-module — picker UI library
 module_id: easypicker-module
-last_verified: 2026-07-19
+last_verified: 2026-10-20
 ---
 
 # easypicker-module — picker UI library
@@ -22,3 +22,9 @@ last_verified: 2026-07-19
 
 После изменения собрать библиотеку и `maplibui`, а для публичного API — app
 release variants.
+
+
+## Учёт доработок
+
+Карточки и автоматический контроль исходных путей: [реестр обновлений](../update-reports/README.md).
+Перед push выполняется локальный hook; в новом клоне требуется его установка.
