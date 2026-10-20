@@ -1,0 +1,5 @@
+{
+  "reports_dir": "update-reports",
+  "id_prefix": "easypicker-",
+  "base_branch": "master"
+}
