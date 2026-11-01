@@ -2,15 +2,21 @@ schema_version: 1
 module_id: easypicker-module
 repository_id: easypicker
 maturity: maintained
-last_verified: 2026-10-20
+last_verified: 2026-11-01
 entrypoints:
   - easypicker/easypicker/src/main/AndroidManifest.xml
 key_components:
   - path: easypicker/easypicker/src/main
     responsibility: Android picker UI implementation and resources.
-public_contracts: []
+public_contracts:
+  - id: attachment-download-terminal-state
+    symbol: DownloadPhotoIntentService.startActionDownload, getStream and DOWNLOAD_ACTION
+    path: easypicker/easypicker/src/main/java/com/keenfin/easypicker/DownloadPhotoIntentService.java
+    consumers: [maplibui, app]
 settings_refs: []
-storage_contracts: []
+storage_contracts:
+  - id: attachment-download-staging
+    path: easypicker/easypicker/src/main/java/com/keenfin/easypicker/DownloadPhotoIntentService.java
 invariant_refs: []
 global_docs:
   - docs/architecture/overview.md

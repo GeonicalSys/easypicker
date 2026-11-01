@@ -20,7 +20,8 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -171,15 +172,8 @@ public class DownloadPhotoIntentService extends Service {
         try {
             int responseCode = getFileFromStream(url, fullFilePath, filename, login, password, userAgent );
 
-            if (responseCode == HttpURLConnection.HTTP_OK)
-                sendBroadcast(getApplicationContext(), urlId, false, responseCode);
+            sendBroadcast(getApplicationContext(), urlId, false, responseCode);
         } catch (Exception ex){
-            try {
-                if (targetFile.exists())
-                    targetFile.delete();
-            } catch (Exception ex1){
-                Log.e("TAG", ex1.toString());
-            }
             sendBroadcast(getApplicationContext(), urlId, false, -1);
             Log.e(TAG, ex.toString());
         }
@@ -189,16 +183,28 @@ public class DownloadPhotoIntentService extends Service {
                                         String filePath,
                                         String filename, String login, String password, String useragent)
                                         throws IOException {
-        File file = new File(new File(filePath), filename);
-        if (!file.exists()){
-            boolean result = file.createNewFile();
-            if (!result)
-                throw  new IOException("file not created");
+        Path parent = new File(filePath).toPath();
+        Path destination = parent.resolve(filename);
+        Path staging = Files.createTempFile(parent, ".attachment-", ".part");
+        try {
+            int responseCode;
+            try (OutputStream output = Files.newOutputStream(staging)) {
+                responseCode = getStream(url, login, password, output, useragent);
+            }
+            if (responseCode == HttpURLConnection.HTTP_OK) {
+                // Never expose an incomplete transfer under the cache name. No copy
+                // fallback: an unsupported/failed atomic move is a failed download.
+                Files.move(staging, destination, StandardCopyOption.ATOMIC_MOVE,
+                        StandardCopyOption.REPLACE_EXISTING);
+            }
+            return responseCode;
+        } finally {
+            try {
+                Files.deleteIfExists(staging);
+            } catch (IOException cleanupFailure) {
+                Log.w(TAG, "Could not remove incomplete attachment download", cleanupFailure);
+            }
         }
-
-        OutputStream output = Files.newOutputStream(Paths.get(file.getAbsolutePath()));
-        //getStream(url, getLogin(), getPassword(), output);
-        return getStream(url, login, password, output, useragent);
     }
 
     public int getStream(
@@ -218,27 +224,32 @@ public class DownloadPhotoIntentService extends Service {
                 Log.d(TAG, "Error get stream: " + targetURL);
             throw new IOException("Connection is null");
         }
-        int responseCode = conn.getResponseCode();
-        if (responseCode == HttpURLConnection.HTTP_MOVED_PERM && conn.getURL().getProtocol().equals("http")) {
-            targetURL = targetURL.replace("http", "https");
-            return  getStream(targetURL, username, password, outputStream, userAgent);
-        }
+        try {
+            int responseCode = conn.getResponseCode();
+            if (responseCode == HttpURLConnection.HTTP_MOVED_PERM && conn.getURL().getProtocol().equals("http")) {
+                targetURL = targetURL.replace("http", "https");
+                return getStream(targetURL, username, password, outputStream, userAgent);
+            }
 
-        if ( responseCode == HttpURLConnection.HTTP_NOT_FOUND) //404
+            if (responseCode == HttpURLConnection.HTTP_NOT_FOUND) //404
                 return responseCode;
 
-        if (responseCode != HttpURLConnection.HTTP_OK) {
-            if (true)
-                Log.d(TAG, "Problem execute getStream: " + targetURL + " HTTP response: " +
-                        responseCode + " username: " + username);
-            throw new IOException("Response code is " + responseCode);
-        }
+            if (responseCode != HttpURLConnection.HTTP_OK) {
+                if (true)
+                    Log.d(TAG, "Problem execute getStream: " + targetURL + " HTTP response: " +
+                            responseCode + " username: " + username);
+                throw new IOException("Response code is " + responseCode);
+            }
 
-        byte data[] = new byte[IO_BUFFER_SIZE];
-        InputStream is = conn.getInputStream();
-        copyStream(is, outputStream, data, IO_BUFFER_SIZE);
-        outputStream.close();
-        return responseCode;
+            byte data[] = new byte[IO_BUFFER_SIZE];
+            try (InputStream is = conn.getInputStream()) {
+                copyStream(is, outputStream, data, IO_BUFFER_SIZE);
+            }
+            outputStream.close();
+            return responseCode;
+        } finally {
+            conn.disconnect();
+        }
     }
 
     public void copyStream(

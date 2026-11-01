@@ -41,6 +41,7 @@ android {
     }
     testOptions {
         targetSdk 36
+        unitTests.includeAndroidResources = true
     }
 }
 
@@ -49,4 +50,6 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.7.1'
     implementation'androidx.recyclerview:recyclerview:1.4.0'
     implementation'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.robolectric:robolectric:4.16.1'
 }
