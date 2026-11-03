@@ -1,0 +1,25 @@
+{
+  "format": "lisa.agent-system.source-dispositions.v1",
+  "entries": [
+    {
+      "path": "agent-system/policy-migration.json",
+      "sha256": "caea0148b66c484975c3768364b465b2187eb86d02a76f14cd862a46d8c52e9f",
+      "sha256_scope": "utf8_lf",
+      "category": "retained_evidence",
+      "applies_to": [
+        "."
+      ],
+      "reason": "Individually reviewed complete AGENTS character/source/object and logical-unit inverse map. Editable facts are the native owner-local records; retain this map as independent provenance, not active prose or deletion authority."
+    },
+    {
+      "path": "agent-system/README.md",
+      "sha256": "e0f15025ae34e9c97a99e4b8a35e31558550fc79fa8727454b6508ca53a74373",
+      "sha256_scope": "utf8_lf",
+      "category": "working_bridge",
+      "applies_to": [
+        "."
+      ],
+      "reason": "Individually authored and reviewed owner identity, complete unchanged AGENTS projection, shared-compiler/basis instructions, current client boundary and whole six-owner remaining scope. No product implementation or execution permission."
+    }
+  ]
+}
