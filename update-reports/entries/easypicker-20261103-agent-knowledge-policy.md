@@ -32,5 +32,8 @@ covers:
 Library Merge Commit предшествует будущему App gitlink; незамерженный pin не принят.
 Publisher идёт после App/его зависимостей. Merge/APK/deployment не разрешены.
 Related/Full/native/GUI/AVD/NGW/DB/cloud NOT_RUN; исходный продукт не изменён.
-Ссылки на собственные Draft PR и фактические результаты дополняются в пределах этой же доработки.
+Source replay19sources/421units/758values PASS; все25 новых значений и19 полных тел сохранены.
+Три прежних и новый27IDs/6fields корпуса PASS, все83 страницы сверены целиком.
+Product source и Gradle inputs не менялись; Gradle/native NOT_RUN для этого переноса данных.
+Own Draft: https://github.com/GeonicalSys/easypicker/pull/7
 Root task: https://github.com/GeonicalSys/lisa/pull/282
