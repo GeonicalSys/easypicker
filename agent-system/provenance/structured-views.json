@@ -1,0 +1,17 @@
+{
+  "format": "lisa.agent-system.module-structured-views.v1",
+  "owner": "android_projects/android_gisapp/easypicker",
+  "views": {
+    "docs/manifest.yaml": {
+      "layout_id": "lisa:easypicker:metadata:easypicker-module-manifest",
+      "sha256_utf8_lf": "130b412705175916f9a0b4ca35750e8e0813f39727f1ab5addc785d2e166b07e",
+      "source_fingerprints": {
+        "agent-system/provenance/easypicker-module-manifest.json": "167994a51d0c6811bdc50695a8be409b58e4ba519e26858cec1f43a01257f9bd",
+        "docs/scripts/module_manifest_knowledge.py": "3fdb73cb014ef0f168102d9ee640a0c6b0b4ed869bcffdbbbe0017649b5fbf05",
+        "docs/scripts/structured_view_proof.py": "9e69930f7986d47228e5bb86be2be27ae5bc93757c564d119c8026d8205e061c"
+      },
+      "ordered_records_sha256": "ab834d35995ae40cc40bf66e8ab30cc6d0fbba7c28daa323e43ecb6689b75afa",
+      "ordered_count": 10
+    }
+  }
+}

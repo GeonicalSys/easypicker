@@ -13,7 +13,7 @@
     },
     {
       "path": "agent-system/README.md",
-      "sha256": "7f2d293ad5fbeccac3c86e4fd0acc05e2705a80760fd31eebbc9bf22f6432aae",
+      "sha256": "17301c30ed1c986c176fabca682a9eafc317e589c3af4a11e322519395665cdf",
       "sha256_scope": "utf8_lf",
       "category": "working_bridge",
       "applies_to": [
@@ -36,36 +36,6 @@
       "category": "retained_evidence",
       "reason": "Complete original README bytes, ordered spans and independent source hashes.",
       "sha256": "8b9e87790e5b6d9e6b5d1acfd8a58980421df810d555583c295f3003f52caa87",
-      "sha256_scope": "utf8_lf",
-      "applies_to": [
-        "."
-      ]
-    },
-    {
-      "path": "README.md",
-      "category": "working_bridge",
-      "reason": "Existing standalone root navigation during owner documentation reader migration.",
-      "sha256": "2c83f05a42b1b54b15d79ff8f07c871c67e5b72fdab01892cf8d09dc1dbda94e",
-      "sha256_scope": "utf8_lf",
-      "applies_to": [
-        "."
-      ]
-    },
-    {
-      "path": "docs/README.md",
-      "category": "working_bridge",
-      "reason": "Existing standalone module documentation during the shared Markdown reader transition.",
-      "sha256": "967a3928adea0bfd536bc5443cfbf2315c7698350f8f307426c622d2d55d9aa7",
-      "sha256_scope": "utf8_lf",
-      "applies_to": [
-        "."
-      ]
-    },
-    {
-      "path": "docs/manifest.yaml",
-      "category": "working_bridge",
-      "reason": "Existing typed YAML input for the ordinary module reader until owner projection acceptance.",
-      "sha256": "d16e065d85ad7dc6af27ed1318beadec9661d412be3f38b2a4786b5031dd36e9",
       "sha256_scope": "utf8_lf",
       "applies_to": [
         "."
