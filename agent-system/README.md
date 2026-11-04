@@ -23,8 +23,18 @@ successful source replay. With the complete LISA workspace, use its shared
 foreign-owner source basis is committed HEAD; uncommitted owner changes require
 an explicitly declared live frame in the shared database build/check protocol.
 
-Only this owner's instruction source is migrated here. Its remaining contracts,
-tasks, defects, risks/questions, decisions, notes and history remain in the whole
-six-owner scope. Actual-client loading, lifecycle normalization and individual
-cleanup have not passed. No product code, library version, APK or app gitlink is
-changed by these records; an open library PR is still an unmerged dependency.
+The module pack has two preservation groups. The
+[manifest records](knowledge/easypicker-module-manifest) preserve 14 ordered
+fields, including the three empty reference lists. The
+[documentation records](knowledge/documentation) preserve both README addresses
+and the attachment download lifecycle. Their
+[manifest](provenance/easypicker-module-manifest.json) and
+[Markdown](provenance/documentation.json) provenance bind the original Git
+objects and each ordered member. App and maplibui consumers are pinned in the
+manifest provenance.
+
+The existing README and manifest remain the editing entrances during
+preservation. The next gate checks the shared renderer, an owner edit,
+generated views and ordinary reading in the consuming App. Standalone readers
+keep their existing addresses. The rest of this owner's knowledge and actual
+client loading remain part of the whole migration.

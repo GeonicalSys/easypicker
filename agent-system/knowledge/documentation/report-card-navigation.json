@@ -1,0 +1,52 @@
+{
+  "applicability": {
+    "conditions": [],
+    "paths": [],
+    "review_status": "unknown",
+    "scope_refs": [],
+    "unknown_behavior": "include_with_unknown_reason"
+  },
+  "execution_permission": false,
+  "facets": {
+    "body": {
+      "role": "reviewed_original_document_body",
+      "value": [
+        "## Учёт доработок",
+        "",
+        "Карточки и автоматический контроль исходных путей: [реестр обновлений](../update-reports/README.md).",
+        "Перед push выполняется локальный hook; в новом клоне требуется его установка.",
+        ""
+      ]
+    },
+    "review": {
+      "role": "reviewed_documentation_scope",
+      "value": "Local reports, normal Git hook and installation requirement."
+    },
+    "view-path": {
+      "role": "original_document_address",
+      "value": "docs/README.md"
+    }
+  },
+  "id": "lisa:easypicker:resource:report-card-navigation",
+  "kind": "resource",
+  "lifecycle": {
+    "goal": "unknown",
+    "implementation": "unknown",
+    "merge": "unknown",
+    "release": "unknown",
+    "retention": "Preserve exact original bytes, physical owner and historical qualifications.",
+    "runtime_verification": "NOT_RUN",
+    "source_verification": "UNKNOWN"
+  },
+  "owner": "android_projects/android_gisapp/easypicker",
+  "provenance": {
+    "manifest": "agent-system/provenance/documentation.json",
+    "scopes": [
+      "lisa:easypicker:resource:report-card-navigation"
+    ]
+  },
+  "relations": [],
+  "schema_version": 2,
+  "status": "active",
+  "topic": "documentation"
+}

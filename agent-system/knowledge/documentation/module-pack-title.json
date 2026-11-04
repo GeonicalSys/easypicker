@@ -1,0 +1,84 @@
+{
+  "applicability": {
+    "conditions": [],
+    "paths": [],
+    "review_status": "unknown",
+    "scope_refs": [],
+    "unknown_behavior": "include_with_unknown_reason"
+  },
+  "execution_permission": false,
+  "facets": {
+    "body": {
+      "role": "reviewed_original_document_body",
+      "value": [
+        "",
+        "# easypicker-module — picker UI library",
+        ""
+      ]
+    },
+    "frontmatter": {
+      "role": "original_document_frontmatter",
+      "value": [
+        "title: easypicker-module — picker UI library",
+        "module_id: easypicker-module",
+        "last_verified: 2026-11-01"
+      ]
+    },
+    "review": {
+      "role": "reviewed_documentation_scope",
+      "value": "Existing frontmatter and display title."
+    },
+    "view-path": {
+      "role": "original_document_address",
+      "value": "docs/README.md"
+    }
+  },
+  "id": "lisa:easypicker:resource:module-pack-title",
+  "kind": "resource",
+  "lifecycle": {
+    "goal": "unknown",
+    "implementation": "unknown",
+    "merge": "unknown",
+    "release": "unknown",
+    "retention": "Preserve exact original bytes, physical owner and historical qualifications.",
+    "runtime_verification": "NOT_RUN",
+    "source_verification": "UNKNOWN"
+  },
+  "owner": "android_projects/android_gisapp/easypicker",
+  "provenance": {
+    "manifest": "agent-system/provenance/documentation.json",
+    "scopes": [
+      "lisa:easypicker:resource:module-pack-title"
+    ]
+  },
+  "relations": [
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:resource:module-ownership-and-consumers",
+      "type": "contains"
+    },
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:resource:module-scope-and-upstream",
+      "type": "contains"
+    },
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:resource:module-check-routing",
+      "type": "contains"
+    },
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:resource:attachment-download-lifecycle",
+      "type": "contains"
+    },
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:resource:report-card-navigation",
+      "type": "contains"
+    }
+  ],
+  "schema_version": 2,
+  "status": "active",
+  "topic": "documentation"
+}

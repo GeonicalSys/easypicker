@@ -1,0 +1,223 @@
+{
+  "consumer_source_witnesses": [
+    {
+      "blob": "846afc11fb076659c41e08b411d5d9d6da9eb12d",
+      "line": 27,
+      "marker": "easypicker/easypicker",
+      "meaning": "parent project physical module binding",
+      "owner": "android_projects/android_gisapp",
+      "path": "settings.gradle",
+      "revision": "72bd7004d31c3df8a13b4883f81a417807e2a08e",
+      "source_sha256": "51ef1a71d62047d7de59be52f5fb2f531049825d29e68e6a3e10c0258c46cc8c"
+    },
+    {
+      "blob": "0314dd521fcbffec11b090e31db3df1ad004c0ca",
+      "line": 278,
+      "marker": "implementation project(':easypicker-module')",
+      "meaning": "direct App implementation dependency",
+      "owner": "android_projects/android_gisapp",
+      "path": "app/build.gradle",
+      "revision": "72bd7004d31c3df8a13b4883f81a417807e2a08e",
+      "source_sha256": "e8fc159c55b02741b0a78bd92426a9da71b5e1b9d8ef50e639f0192991900ccf"
+    },
+    {
+      "blob": "256f4a1a9b8e84615327b758c47826d450f1846f",
+      "line": 100,
+      "marker": "api project(':easypicker-module')",
+      "meaning": "maplibui API export",
+      "owner": "android_projects/android_gisapp/maplibui",
+      "path": "build.gradle",
+      "revision": "99e0013f1efd56747c92a1ca2ee118b9605028b7",
+      "source_sha256": "76b48c1a6ba60dd2b039f33f1ee851819b5fef4c26ec56df4927e9f203d7f524"
+    },
+    {
+      "blob": "256f4a1a9b8e84615327b758c47826d450f1846f",
+      "line": 116,
+      "marker": "implementation project(':easypicker-module')",
+      "meaning": "additional tracked implementation declaration",
+      "owner": "android_projects/android_gisapp/maplibui",
+      "path": "build.gradle",
+      "revision": "99e0013f1efd56747c92a1ca2ee118b9605028b7",
+      "source_sha256": "76b48c1a6ba60dd2b039f33f1ee851819b5fef4c26ec56df4927e9f203d7f524"
+    },
+    {
+      "blob": "bad581f394080d2e78c1d96cc606d241c16e6a74",
+      "line": 372,
+      "marker": "DownloadPhotoIntentService.getProgressList()",
+      "meaning": "App reads picker download progress",
+      "owner": "android_projects/android_gisapp",
+      "path": "app/src/main/java/com/nextgis/mobile/fragment/AttributesFragment.java",
+      "revision": "72bd7004d31c3df8a13b4883f81a417807e2a08e",
+      "source_sha256": "d636e579093a93eb851b8cfc291e35e50b0e45b5e0effbbdbb627e035e6d31e9"
+    },
+    {
+      "blob": "feadc030a319765fdc64982074002f300ae38473",
+      "line": 131,
+      "marker": "DownloadPhotoIntentService.getReceiverIntent",
+      "meaning": "maplibui form receiver import",
+      "owner": "android_projects/android_gisapp/maplibui",
+      "path": "src/main/java/com/nextgis/maplibui/activity/ModifyAttributesActivity.java",
+      "revision": "99e0013f1efd56747c92a1ca2ee118b9605028b7",
+      "source_sha256": "d433ff208dd06dea3c898e2f5ee8302e3509ed88529edcd22a8cc41260489321"
+    },
+    {
+      "blob": "9b2187f9399efbc04245fdabc5fa7d49b0ddc31d",
+      "line": 550,
+      "marker": "DownloadPhotoIntentService.startActionDownload",
+      "meaning": "local picker start path",
+      "owner": "android_projects/android_gisapp/easypicker",
+      "path": "easypicker/src/main/java/com/keenfin/easypicker/PhotoPicker.java",
+      "revision": "79329b6914d0363c2395709e29938128e8e6ef9f",
+      "source_sha256": "0b76bd2c9bc32707c677d024db8a8bcb2170b4e4d0303be0a65d7b2da46749bc"
+    },
+    {
+      "blob": "9b2187f9399efbc04245fdabc5fa7d49b0ddc31d",
+      "line": 561,
+      "marker": "DownloadPhotoIntentService.startActionDownload",
+      "meaning": "second local picker start path",
+      "owner": "android_projects/android_gisapp/easypicker",
+      "path": "easypicker/src/main/java/com/keenfin/easypicker/PhotoPicker.java",
+      "revision": "79329b6914d0363c2395709e29938128e8e6ef9f",
+      "source_sha256": "0b76bd2c9bc32707c677d024db8a8bcb2170b4e4d0303be0a65d7b2da46749bc"
+    }
+  ],
+  "dependency_plan": {
+    "analysis_status": "UNKNOWN",
+    "bounded_report_sha256": "7aa97aaab9a6ff33041ef69b545f20d6d298733c45080d735cd77f17910085ab",
+    "input_sha256": "2c70c1d43517a76692889149cabbc23ca066f62d7d004b0a848342822ec5ab27",
+    "source_context": {
+      "repositories": {
+        ".": {
+          "basis": "working_tree"
+        },
+        "android_projects/android_gisapp": {
+          "basis": "working_tree"
+        },
+        "android_projects/android_gisapp/easypicker": {
+          "basis": "working_tree"
+        },
+        "android_projects/android_gisapp/maplib": {
+          "basis": "working_tree"
+        },
+        "android_projects/android_gisapp/maplibui": {
+          "basis": "working_tree"
+        },
+        "android_projects/upload_mobile": {
+          "basis": "working_tree"
+        }
+      },
+      "schema_version": 1
+    },
+    "source_review_links": 3994653
+  },
+  "format": "lisa.agent-system.library-module-manifest-preservation.v1",
+  "gate": "Pinned source and typed preservation. Normal authoring and reader cutover are separate.",
+  "layout_id": "lisa:easypicker:metadata:easypicker-module-manifest",
+  "ordered_records": [
+    "lisa:easypicker:metadata:easypicker-module-manifest",
+    "lisa:easypicker:resource:manifest-entrypoints",
+    "lisa:easypicker:contract:picker-implementation",
+    "lisa:easypicker:contract:attachment-download-terminal-state",
+    "lisa:easypicker:resource:manifest-settings-refs",
+    "lisa:easypicker:contract:attachment-download-staging",
+    "lisa:easypicker:resource:manifest-invariant-refs",
+    "lisa:easypicker:resource:manifest-global-docs",
+    "lisa:easypicker:resource:manifest-smoke-tests",
+    "lisa:easypicker:resource:manifest-upstream-hotspots"
+  ],
+  "ordered_records_sha256": "ab834d35995ae40cc40bf66e8ab30cc6d0fbba7c28daa323e43ecb6689b75afa",
+  "original": {
+    "blob": "ce0725d542a068d87c1a0d3507cc1a2926a3b222",
+    "bytes": 950,
+    "fields": [
+      {
+        "end_byte": 18,
+        "key": "schema_version",
+        "sha256": "5c9536c0f64193f535c425baf9f2c7431b89eb46bab5fb85d4bfcffabb565f43",
+        "start_byte": 0
+      },
+      {
+        "end_byte": 47,
+        "key": "module_id",
+        "sha256": "a1061a034528af9a796d9fbece831e0c5c886ac2a60fc56ced2d0d2a91e5d2f7",
+        "start_byte": 18
+      },
+      {
+        "end_byte": 73,
+        "key": "repository_id",
+        "sha256": "059eb7c8852e3f39dc26df1ebf780d9d0f0aa23485c15ecc00aab119e619c0fc",
+        "start_byte": 47
+      },
+      {
+        "end_byte": 94,
+        "key": "maturity",
+        "sha256": "4a5426b15627f803f4ed5a207530e9b88a6253192b7bb78c4a67925fdf99dcc2",
+        "start_byte": 73
+      },
+      {
+        "end_byte": 120,
+        "key": "last_verified",
+        "sha256": "03f5e1c2c1ce0976678bafac5ea0afe9351743ceedbd3bc05fce85d992a9f9ca",
+        "start_byte": 94
+      },
+      {
+        "end_byte": 188,
+        "key": "entrypoints",
+        "sha256": "cebf2c3f6e29eecb422e93211d0872013e81c01cf1c245540e4d70b37cde5cd7",
+        "start_byte": 120
+      },
+      {
+        "end_byte": 313,
+        "key": "key_components",
+        "sha256": "e2d372b846a34b204e2fd76ec9f00974514a6e037d9b3e18ad57cbbcb422f90c",
+        "start_byte": 188
+      },
+      {
+        "end_byte": 596,
+        "key": "public_contracts",
+        "sha256": "6d184cf67801a63e1120e35ea6f0b2871acbc53d428658c4f981cd7b8c31be6d",
+        "start_byte": 313
+      },
+      {
+        "end_byte": 614,
+        "key": "settings_refs",
+        "sha256": "6c9808fcf0988991ffbbc7a6a925ed96f4a248d09ae6e647bc7618c24d1055b6",
+        "start_byte": 596
+      },
+      {
+        "end_byte": 770,
+        "key": "storage_contracts",
+        "sha256": "ea9b5addff4cacd15d874bb073850803778d80dcb88dc78698300abe92614418",
+        "start_byte": 614
+      },
+      {
+        "end_byte": 789,
+        "key": "invariant_refs",
+        "sha256": "aa33eb957f23e794bf46299bbcf3f33d2c31b86bacd99ba03e497853715a70d5",
+        "start_byte": 770
+      },
+      {
+        "end_byte": 871,
+        "key": "global_docs",
+        "sha256": "ed4fa3174b27c21007e645273b3e3002e6f3c8769b59131347d59e071ce1fbf9",
+        "start_byte": 789
+      },
+      {
+        "end_byte": 928,
+        "key": "smoke_tests",
+        "sha256": "7650fa7a905955eca80b4e26668eee72ee35a1e60f292097c2b8a62a4a3639a1",
+        "start_byte": 871
+      },
+      {
+        "end_byte": 950,
+        "key": "upstream_hotspots",
+        "sha256": "b8c3387d75d9d30bd2a3f6514425e3ced571b423501a55429499f647f187b2db",
+        "start_byte": 928
+      }
+    ],
+    "path": "docs/manifest.yaml",
+    "revision": "79329b6914d0363c2395709e29938128e8e6ef9f",
+    "sha256": "d16e065d85ad7dc6af27ed1318beadec9661d412be3f38b2a4786b5031dd36e9"
+  },
+  "owner": "android_projects/android_gisapp/easypicker"
+}
