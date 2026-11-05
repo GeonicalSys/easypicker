@@ -7,8 +7,8 @@
       "sha256_utf8_lf": "130b412705175916f9a0b4ca35750e8e0813f39727f1ab5addc785d2e166b07e",
       "source_fingerprints": {
         "agent-system/provenance/easypicker-module-manifest.json": "167994a51d0c6811bdc50695a8be409b58e4ba519e26858cec1f43a01257f9bd",
-        "docs/scripts/module_manifest_knowledge.py": "3fdb73cb014ef0f168102d9ee640a0c6b0b4ed869bcffdbbbe0017649b5fbf05",
-        "docs/scripts/structured_view_proof.py": "9e69930f7986d47228e5bb86be2be27ae5bc93757c564d119c8026d8205e061c"
+        "docs/scripts/module_manifest_knowledge.py": "6010dfb9a7cfc2cfe4f1afbfde9d865f9d225f07878bac5cf1e99d3ade68405c",
+        "docs/scripts/structured_view_proof.py": "bae9d5c0273dbe26bfa4c4467c2c7210cbc75c1677cc25a9a6a4cf347b6bb54c"
       },
       "ordered_records_sha256": "ab834d35995ae40cc40bf66e8ab30cc6d0fbba7c28daa323e43ecb6689b75afa",
       "ordered_count": 10
