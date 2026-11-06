@@ -12,16 +12,6 @@
       "reason": "Individually reviewed complete AGENTS character/source/object and logical-unit inverse map. Editable facts are the native owner-local records; retain this map as independent provenance, not active prose or deletion authority."
     },
     {
-      "path": "agent-system/README.md",
-      "sha256": "17301c30ed1c986c176fabca682a9eafc317e589c3af4a11e322519395665cdf",
-      "sha256_scope": "utf8_lf",
-      "category": "working_bridge",
-      "applies_to": [
-        "."
-      ],
-      "reason": "Owner identity, preserved instruction source and next gates for the manifest and Markdown reader cutover."
-    },
-    {
       "path": "agent-system/provenance/easypicker-module-manifest.json",
       "category": "retained_evidence",
       "reason": "Original manifest syntax, ordered typed records and exact App and maplibui consumer witnesses.",
@@ -35,7 +25,7 @@
       "path": "agent-system/provenance/documentation.json",
       "category": "retained_evidence",
       "reason": "Complete original README bytes, ordered spans and independent source hashes.",
-      "sha256": "8b9e87790e5b6d9e6b5d1acfd8a58980421df810d555583c295f3003f52caa87",
+      "sha256": "a6fd42636845837a4a9e4f4b93e7c9590bde401889e9725d1a5b93cae4f1848f",
       "sha256_scope": "utf8_lf",
       "applies_to": [
         "."
