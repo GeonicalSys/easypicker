@@ -14,8 +14,8 @@
       "role": "markdown_body_lines",
       "value": [
         "Edit the native logical record and its explicit reviewed mapping together; check",
-        "the entire original body and every condition. Until measured client cutover,",
-        "existing AGENTS, validators and hooks remain effective. Standalone opening may",
+        "the entire original body and every condition. The [working entrance](../AGENTS.md)",
+        "opens the shared scoped reader. Existing validators and hooks still apply. Standalone opening may",
         "read these ordinary JSON sources; it must report the shared compiler unavailable",
         "if the LISA root is absent, without creating a private scanner or claiming a",
         "successful source replay. With the complete LISA workspace, use its shared",

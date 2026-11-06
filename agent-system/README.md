@@ -1,7 +1,7 @@
 # EasyPicker knowledge sources
 
 This owner participates in the whole LISA knowledge restructuring. Ten logical
-rules/contracts from the complete unchanged [AGENTS](../AGENTS.md) are editable
+rules/contracts from the original AGENTS.md are editable
 typed Git records in [knowledge/policy](knowledge/policy). The
 [source map](policy-migration.json) pins the original Git object and maps every
 normalized character, including layout, to its reviewed destination. The
@@ -14,8 +14,8 @@ report identity and hook admission retain all original conditions. They are
 knowledge assertions, never current execution or publication authority.
 
 Edit the native logical record and its explicit reviewed mapping together; check
-the entire original body and every condition. Until measured client cutover,
-existing AGENTS, validators and hooks remain effective. Standalone opening may
+the entire original body and every condition. The [working entrance](../AGENTS.md)
+opens the shared scoped reader. Existing validators and hooks still apply. Standalone opening may
 read these ordinary JSON sources; it must report the shared compiler unavailable
 if the LISA root is absent, without creating a private scanner or claiming a
 successful source replay. With the complete LISA workspace, use its shared
