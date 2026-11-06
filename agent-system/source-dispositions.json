@@ -30,6 +30,18 @@
       "applies_to": [
         "."
       ]
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "09070e16bd61836b7c1f0efd3ddb1fd780298238161e458f2c72e4332febfd16",
+      "sha256_scope": "utf8_lf",
+      "category": "retained_evidence",
+      "reason": "Retain the upstream EasyPicker release history for versions 0.1 through 0.2 at its original Git address.",
+      "applies_to": [
+        "CHANGELOG.md",
+        "README.md",
+        "docs/README.md"
+      ]
     }
   ]
 }
