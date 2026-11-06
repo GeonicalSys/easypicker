@@ -1,0 +1,18 @@
+---
+id: easypicker-20261107-knowledge-entrance
+area: Документация
+kind: internal
+at: '2026-11-07T01:26:45+04:00'
+title: Рабочий вход EasyPicker в систему знаний
+why: Подключить контекст владельца через общий читатель
+covers:
+  - .cursor/rules/lisa-knowledge-context.mdc
+  - AGENTS.md
+  - agent-system/README.md
+  - agent-system/knowledge/documentation/easypicker-knowledge-authoring.json
+  - agent-system/knowledge/documentation/easypicker-knowledge-home.json
+---
+
+Рабочий вход направляет к правилам владельца в системе знаний.
+Руководство владельца описывает этот маршрут. Полная исходная
+инструкция доступна через карту исходных объектов Git.

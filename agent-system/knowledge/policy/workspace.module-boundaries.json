@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "id": "lisa:easypicker:contract:workspace.module-boundaries",
+  "kind": "contract",
+  "owner": "android_projects/android_gisapp/easypicker",
+  "topic": "policy-workspace",
+  "status": "active",
+  "execution_permission": false,
+  "applicability": {
+    "review_status": "reviewed",
+    "paths": [
+      {
+        "repository": "android_projects/android_gisapp/easypicker",
+        "include": [
+          "."
+        ],
+        "exclude": []
+      }
+    ],
+    "scope_refs": [],
+    "conditions": [],
+    "unknown_behavior": "include_with_unknown_reason"
+  },
+  "lifecycle": {
+    "goal": "not_applicable",
+    "implementation": "not_applicable",
+    "source_verification": "NOT_APPLICABLE",
+    "merge": "not_applicable",
+    "runtime_verification": "NOT_APPLICABLE",
+    "release": "not_applicable",
+    "retention": "Retain editable logical subject and pinned provenance; product implementation/acceptance are separate records."
+  },
+  "facets": {
+    "body": {
+      "role": "standing_contract",
+      "value": "Это отдельный fork upstream EasyPicker, подключённый root как\n`:easypicker-module` и экспортируемый `maplibui`. Изменение публичного widget API\nпроверять в `maplibui` и `app`. Не переносить сюда продуктовую GIS-логику.\n"
+    },
+    "classification": {
+      "role": "reviewed_knowledge_class",
+      "value": "standing_contract"
+    },
+    "review": {
+      "role": "classification_reason",
+      "value": "Complete module identity and exported consumers, public widget API validation in both consumers and the GIS ownership prohibition."
+    },
+    "source_section": {
+      "role": "source_document_context",
+      "value": [
+        "# easypicker-module — инструкции для ИИ-агентов"
+      ]
+    },
+    "authority_limit": {
+      "role": "authority_and_acceptance_boundary",
+      "value": "Path applicability is reviewed separately from the rule's textual triggers. Every source condition and heading remains attached; no automatic predicate or lifecycle inference. Stored commands and dates do not grant current execution, freshness or product acceptance. Existing instruction clients/checkers remain effective until measured cutover."
+    }
+  },
+  "relations": [],
+  "provenance": {
+    "manifest": "agent-system/policy-migration.json",
+    "scopes": [
+      "lisa:easypicker:contract:workspace.module-boundaries"
+    ]
+  }
+}

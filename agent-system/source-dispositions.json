@@ -1,0 +1,47 @@
+{
+  "format": "lisa.agent-system.source-dispositions.v1",
+  "entries": [
+    {
+      "path": "agent-system/policy-migration.json",
+      "sha256": "caea0148b66c484975c3768364b465b2187eb86d02a76f14cd862a46d8c52e9f",
+      "sha256_scope": "utf8_lf",
+      "category": "retained_evidence",
+      "applies_to": [
+        "."
+      ],
+      "reason": "Individually reviewed complete AGENTS character/source/object and logical-unit inverse map. Editable facts are the native owner-local records; retain this map as independent provenance, not active prose or deletion authority."
+    },
+    {
+      "path": "agent-system/provenance/easypicker-module-manifest.json",
+      "category": "retained_evidence",
+      "reason": "Original manifest syntax, ordered typed records and exact App and maplibui consumer witnesses.",
+      "sha256": "167994a51d0c6811bdc50695a8be409b58e4ba519e26858cec1f43a01257f9bd",
+      "sha256_scope": "utf8_lf",
+      "applies_to": [
+        "."
+      ]
+    },
+    {
+      "path": "agent-system/provenance/documentation.json",
+      "category": "retained_evidence",
+      "reason": "Complete original README bytes, ordered spans and independent source hashes.",
+      "sha256": "a6fd42636845837a4a9e4f4b93e7c9590bde401889e9725d1a5b93cae4f1848f",
+      "sha256_scope": "utf8_lf",
+      "applies_to": [
+        "."
+      ]
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "09070e16bd61836b7c1f0efd3ddb1fd780298238161e458f2c72e4332febfd16",
+      "sha256_scope": "utf8_lf",
+      "category": "retained_evidence",
+      "reason": "Retain the upstream EasyPicker release history for versions 0.1 through 0.2 at its original Git address.",
+      "applies_to": [
+        "CHANGELOG.md",
+        "README.md",
+        "docs/README.md"
+      ]
+    }
+  ]
+}

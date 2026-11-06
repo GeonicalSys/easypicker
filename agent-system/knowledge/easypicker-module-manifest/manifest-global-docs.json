@@ -1,0 +1,45 @@
+{
+  "applicability": {
+    "conditions": [],
+    "paths": [],
+    "review_status": "unknown",
+    "scope_refs": [],
+    "unknown_behavior": "include_with_unknown_reason"
+  },
+  "execution_permission": false,
+  "facets": {
+    "definition": {
+      "role": "reviewed_module_manifest_definition",
+      "value": [
+        "docs/architecture/overview.md",
+        "docs/runbooks/upstream-sync.md"
+      ]
+    },
+    "manifest-field": {
+      "role": "reviewed_module_manifest_manifest_field",
+      "value": "global_docs"
+    }
+  },
+  "id": "lisa:easypicker:resource:manifest-global-docs",
+  "kind": "resource",
+  "lifecycle": {
+    "goal": "unknown",
+    "implementation": "unknown",
+    "merge": "unknown",
+    "release": "unknown",
+    "retention": "Preserve exact manifest owner, ordered typed fields and original Git source.",
+    "runtime_verification": "NOT_RUN",
+    "source_verification": "UNKNOWN"
+  },
+  "owner": "android_projects/android_gisapp/easypicker",
+  "provenance": {
+    "manifest": "agent-system/provenance/easypicker-module-manifest.json",
+    "scopes": [
+      "lisa:easypicker:resource:manifest-global-docs"
+    ]
+  },
+  "relations": [],
+  "schema_version": 2,
+  "status": "active",
+  "topic": "easypicker-module-manifest"
+}

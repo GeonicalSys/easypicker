@@ -1,0 +1,263 @@
+{
+  "format": "lisa.agent-system.policy-migration.v1",
+  "owner": "android_projects/android_gisapp/easypicker",
+  "review": "Individually authored source boundaries and dispositions. Complete original text/metadata/conditions retained; semantic duplicates and product/task acceptance require their own evidence. No date, heading, status or size classifier; no client cutover.",
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "revision": "d4405ab4aafca40a8186d17b0778b5e897196554",
+      "blob": "d540a841bba1a7a358972c80097ad59fa761d99a",
+      "sha256_utf8_lf": "ee0f4e5b657e7a3a08df9812735928f66e1430c4cdd23d3325ac345ad7a8d85b",
+      "layout": [
+        {
+          "lines": [
+            1,
+            1
+          ],
+          "reason": "heading"
+        },
+        {
+          "lines": [
+            2,
+            2
+          ],
+          "reason": "blank_separator"
+        },
+        {
+          "lines": [
+            5,
+            5
+          ],
+          "reason": "blank_separator"
+        },
+        {
+          "lines": [
+            9,
+            9
+          ],
+          "reason": "blank_separator"
+        },
+        {
+          "lines": [
+            12,
+            12
+          ],
+          "reason": "blank_separator"
+        },
+        {
+          "lines": [
+            13,
+            13
+          ],
+          "reason": "heading"
+        },
+        {
+          "lines": [
+            14,
+            14
+          ],
+          "reason": "blank_separator"
+        },
+        {
+          "lines": [
+            21,
+            21
+          ],
+          "reason": "blank_separator"
+        },
+        {
+          "lines": [
+            22,
+            22
+          ],
+          "reason": "heading"
+        },
+        {
+          "lines": [
+            23,
+            23
+          ],
+          "reason": "blank_separator"
+        },
+        {
+          "lines": [
+            28,
+            28
+          ],
+          "reason": "blank_separator"
+        },
+        {
+          "lines": [
+            29,
+            29
+          ],
+          "reason": "blank_separator"
+        },
+        {
+          "lines": [
+            30,
+            30
+          ],
+          "reason": "heading"
+        },
+        {
+          "lines": [
+            31,
+            31
+          ],
+          "reason": "blank_separator"
+        },
+        {
+          "lines": [
+            47,
+            47
+          ],
+          "reason": "blank_separator"
+        },
+        {
+          "lines": [
+            48,
+            48
+          ],
+          "reason": "blank_separator"
+        },
+        {
+          "lines": [
+            49,
+            49
+          ],
+          "reason": "heading"
+        },
+        {
+          "lines": [
+            50,
+            50
+          ],
+          "reason": "blank_separator"
+        }
+      ],
+      "units": [
+        {
+          "id": "lisa:easypicker:instruction:workspace.prerequisites",
+          "spans": [
+            [
+              49,
+              197
+            ]
+          ],
+          "classification": "permanent_rule",
+          "review": "Complete local-pack and consuming dependency/impact entry requirements, including the parent-workspace qualifier.",
+          "record_sha256": "33abf3c3747678145c2318e31dc0e66ca5eb676b9753ee7d516b7dd7726a5960"
+        },
+        {
+          "id": "lisa:easypicker:contract:workspace.module-boundaries",
+          "spans": [
+            [
+              198,
+              417
+            ]
+          ],
+          "classification": "standing_contract",
+          "review": "Complete module identity and exported consumers, public widget API validation in both consumers and the GIS ownership prohibition.",
+          "record_sha256": "a07b968af7b672489bc1cc4eb57ac7e0224253660366ac597c090487cbd44834"
+        },
+        {
+          "id": "lisa:easypicker:instruction:workspace.standalone-docs",
+          "spans": [
+            [
+              418,
+              576
+            ]
+          ],
+          "classification": "permanent_rule",
+          "review": "Standalone absence never waives the local pack or the consuming root's cross-repository documentation obligation.",
+          "record_sha256": "b53ca19316b4f3128e1dc998bc22fd598eea4ff1eadf5f815375d25a4ef7fe46"
+        },
+        {
+          "id": "lisa:easypicker:instruction:workspace.git-delivery",
+          "spans": [
+            [
+              594,
+              1055
+            ]
+          ],
+          "classification": "permanent_rule",
+          "review": "Complete change versus read-only authorization, restricted operations, library Merge Commit and post-merge consumer pointer order. Stored wording grants no current operation.",
+          "record_sha256": "c312e265f5acc958d6bb4a83a4263dc88b5d919e87e62cd44530dc29f3d24e8c"
+        },
+        {
+          "id": "lisa:easypicker:instruction:workspace.report-owner-and-boundary",
+          "spans": [
+            [
+              1089,
+              1376
+            ]
+          ],
+          "classification": "permanent_rule",
+          "review": "Customer/internal report trigger, owner prefix, same-PR location, centralized slices and ID-based cutoff retained together.",
+          "record_sha256": "4b90e6abadceaee95cc9fe81d481357db628644db4240ca97edb462eac588741"
+        },
+        {
+          "id": "lisa:easypicker:instruction:workspace.independent-change-card",
+          "spans": [
+            [
+              1423,
+              1697
+            ]
+          ],
+          "classification": "permanent_rule",
+          "review": "New change identity and exact changed-path coverage, preserving the separate narrowly reasoned exemption route.",
+          "record_sha256": "13e4bbb150fbe2b52d6c37397d8c65681da1dd226523a1801f30eafb0324d37a"
+        },
+        {
+          "id": "lisa:easypicker:instruction:workspace.report-hook-admission",
+          "spans": [
+            [
+              1697,
+              2313
+            ]
+          ],
+          "classification": "permanent_rule",
+          "review": "Before commit/push guard, per-clone installation, missing-PyYAML recovery and preservation of existing hook configuration are one complete admission process.",
+          "record_sha256": "3ff47f00d9776b46aadde051a3edd77a127ea0c950dd421ebd4c86108bc2691c"
+        },
+        {
+          "id": "lisa:easypicker:instruction:workspace.report-hook-enforcement",
+          "spans": [
+            [
+              2313,
+              2539
+            ]
+          ],
+          "classification": "permanent_rule",
+          "review": "Normal push must fail on missing/broken admission; no hook bypass, policy weakening or fake exemption, with semantic card review still required.",
+          "record_sha256": "4b36caa736385d3fffba6c5049e58bc1ef418a6b72ccef1d249fc32f189a80ff"
+        },
+        {
+          "id": "lisa:easypicker:instruction:workspace.report-persistence",
+          "spans": [
+            [
+              2578,
+              3033
+            ]
+          ],
+          "classification": "permanent_rule",
+          "review": "Requested draft/audit/reconciliation delivery, owner location, ecosystem index and direct Git/PR links retained with their complete scope.",
+          "record_sha256": "d887bbe57c34e489e2f102b7e9933f443a750fdb57492ae3ad230695834b23c6"
+        },
+        {
+          "id": "lisa:easypicker:instruction:workspace.report-acceptance",
+          "spans": [
+            [
+              3033,
+              3221
+            ]
+          ],
+          "classification": "permanent_rule",
+          "review": "Saving a draft does not close report IDs; explicit acceptance creates reported/letters separately and preserves source/secret rules for attachments.",
+          "record_sha256": "8ece0361429323b283fe2e87fc7e1d463893739238229e142a45684096dec3f4"
+        }
+      ]
+    }
+  ]
+}

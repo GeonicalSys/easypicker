@@ -1,0 +1,108 @@
+{
+  "applicability": {
+    "conditions": [],
+    "paths": [],
+    "review_status": "unknown",
+    "scope_refs": [],
+    "unknown_behavior": "include_with_unknown_reason"
+  },
+  "execution_permission": false,
+  "facets": {
+    "manifest-field-order": {
+      "role": "reviewed_module_manifest_manifest_field_order",
+      "value": [
+        "entrypoints",
+        "key_components",
+        "public_contracts",
+        "settings_refs",
+        "storage_contracts",
+        "invariant_refs",
+        "global_docs",
+        "smoke_tests",
+        "upstream_hotspots"
+      ]
+    },
+    "manifest-metadata": {
+      "role": "reviewed_module_manifest_manifest_metadata",
+      "value": {
+        "last_verified": "2026-11-01",
+        "maturity": "maintained",
+        "module_id": "easypicker-module",
+        "repository_id": "easypicker",
+        "schema_version": 1
+      }
+    },
+    "view-path": {
+      "role": "reviewed_module_manifest_view_path",
+      "value": "docs/manifest.yaml"
+    }
+  },
+  "id": "lisa:easypicker:metadata:easypicker-module-manifest",
+  "kind": "metadata",
+  "lifecycle": {
+    "goal": "unknown",
+    "implementation": "unknown",
+    "merge": "unknown",
+    "release": "unknown",
+    "retention": "Preserve exact manifest owner, ordered typed fields and original Git source.",
+    "runtime_verification": "NOT_RUN",
+    "source_verification": "UNKNOWN"
+  },
+  "owner": "android_projects/android_gisapp/easypicker",
+  "provenance": {
+    "manifest": "agent-system/provenance/easypicker-module-manifest.json",
+    "scopes": [
+      "lisa:easypicker:metadata:easypicker-module-manifest"
+    ]
+  },
+  "relations": [
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:resource:manifest-entrypoints",
+      "type": "contains"
+    },
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:contract:picker-implementation",
+      "type": "contains"
+    },
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:contract:attachment-download-terminal-state",
+      "type": "contains"
+    },
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:resource:manifest-settings-refs",
+      "type": "contains"
+    },
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:contract:attachment-download-staging",
+      "type": "contains"
+    },
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:resource:manifest-invariant-refs",
+      "type": "contains"
+    },
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:resource:manifest-global-docs",
+      "type": "contains"
+    },
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:resource:manifest-smoke-tests",
+      "type": "contains"
+    },
+    {
+      "status": "source_backed",
+      "target": "lisa:easypicker:resource:manifest-upstream-hotspots",
+      "type": "contains"
+    }
+  ],
+  "schema_version": 2,
+  "status": "active",
+  "topic": "easypicker-module-manifest"
+}

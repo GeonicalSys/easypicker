@@ -1,0 +1,105 @@
+{
+  "owner": "android_projects/android_gisapp/easypicker",
+  "schema_version": 1,
+  "sources": [
+    {
+      "blob": "a077862e1ee0fd29b936c4c4fdeefc69f36b672f",
+      "bytes": 154,
+      "id": "lisa:easypicker:resource:library-introduction",
+      "ordered_records_sha256": "851ae5fab5b5a16a508353e8617b41c177fd4f367531c904d4747dff74723f5d",
+      "ordered_spans": [
+        {
+          "end_byte": 154,
+          "id": "lisa:easypicker:resource:library-introduction",
+          "sha256": "2c83f05a42b1b54b15d79ff8f07c871c67e5b72fdab01892cf8d09dc1dbda94e",
+          "start_byte": 0
+        }
+      ],
+      "path": "README.md",
+      "record": "library-introduction.json",
+      "revision": "79329b6914d0363c2395709e29938128e8e6ef9f",
+      "sha256": "2c83f05a42b1b54b15d79ff8f07c871c67e5b72fdab01892cf8d09dc1dbda94e"
+    },
+    {
+      "blob": "73b3b610f369bd09af5290074d007eed298fa26d",
+      "bytes": 4432,
+      "id": "lisa:easypicker:resource:module-pack-title",
+      "ordered_records_sha256": "3202ed81d191c3c38547dd1ec3ca845c5dfb3176e56f56d7183873544cf26cc0",
+      "ordered_spans": [
+        {
+          "end_byte": 154,
+          "id": "lisa:easypicker:resource:module-pack-title",
+          "sha256": "4ed96940badda99814bb9b31c4d8042a78d0ed5f5e685fef8c7fe89278ef8825",
+          "start_byte": 0
+        },
+        {
+          "end_byte": 504,
+          "id": "lisa:easypicker:resource:module-ownership-and-consumers",
+          "sha256": "da25c25e6c3c7672cb9bf2399ffa123a8d8d2b01903d2fecbfcb1db36287ee00",
+          "start_byte": 154
+        },
+        {
+          "end_byte": 814,
+          "id": "lisa:easypicker:resource:module-scope-and-upstream",
+          "sha256": "8b9823d8d0e1784c5d858aaa2b8b33be741a7f2b001a67d1ce4d134d14ec57fd",
+          "start_byte": 504
+        },
+        {
+          "end_byte": 978,
+          "id": "lisa:easypicker:resource:module-check-routing",
+          "sha256": "144545248d49b2636e34c8660d4d00d5ce4dea8ad03c8583818df57e172feb2d",
+          "start_byte": 814
+        },
+        {
+          "end_byte": 4104,
+          "id": "lisa:easypicker:resource:attachment-download-lifecycle",
+          "sha256": "e37dbb134410c9a863b454e2b7dfc16f8b9733c70c0f5ce9e93e9575ddc7ae71",
+          "start_byte": 978
+        },
+        {
+          "end_byte": 4432,
+          "id": "lisa:easypicker:resource:report-card-navigation",
+          "sha256": "7bfc6002d7e2a9a6881ea93877c95646978b9d6a9d033483851636cd94a96f31",
+          "start_byte": 4104
+        }
+      ],
+      "path": "docs/README.md",
+      "record": "module-pack-title.json",
+      "revision": "79329b6914d0363c2395709e29938128e8e6ef9f",
+      "sha256": "967a3928adea0bfd536bc5443cfbf2315c7698350f8f307426c622d2d55d9aa7"
+    },
+    {
+      "applies_to": [
+        "."
+      ],
+      "blob": "7c3615651ddab45449cb4cdaa541885cb948d002",
+      "bytes": 2909,
+      "id": "lisa:easypicker:resource:easypicker-knowledge-home",
+      "ordered_records_sha256": "74c82369779132eb9819a80a8c563cf4ee78fa267ed5f2471b4a639b7365341d",
+      "ordered_spans": [
+        {
+          "end_byte": 877,
+          "id": "lisa:easypicker:resource:easypicker-knowledge-home",
+          "sha256": "c8fdf7366fc346e739157cee6c0206ec8b70732a4616d3637a9c015c4b00740b",
+          "start_byte": 0
+        },
+        {
+          "end_byte": 1587,
+          "id": "lisa:easypicker:resource:easypicker-knowledge-authoring",
+          "sha256": "ea049876fcf34a5fd2c685885442f9acabf70c7576ff23a32d1b6560552b85e1",
+          "start_byte": 877
+        },
+        {
+          "end_byte": 2909,
+          "id": "lisa:easypicker:resource:easypicker-knowledge-layout",
+          "sha256": "d48e1bac35a166c79b6b472bb0632bb4a6f099ea429e56645f6a06e51e56efcf",
+          "start_byte": 1587
+        }
+      ],
+      "path": "agent-system/README.md",
+      "record": "easypicker-knowledge-home.json",
+      "revision": "60c4dce182437f9274cd82945a69421edb1953e2",
+      "sha256": "17301c30ed1c986c176fabca682a9eafc317e589c3af4a11e322519395665cdf"
+    }
+  ]
+}

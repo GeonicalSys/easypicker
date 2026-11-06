@@ -1,0 +1,53 @@
+{
+  "applicability": {
+    "conditions": [],
+    "paths": [],
+    "review_status": "unknown",
+    "scope_refs": [],
+    "unknown_behavior": "include_with_unknown_reason"
+  },
+  "execution_permission": false,
+  "facets": {
+    "body": {
+      "role": "reviewed_original_document_body",
+      "value": [
+        "# easypicker",
+        "Easy photo gallery picker for Android",
+        "",
+        "Local contracts, attachment download lifecycle and targeted checks:",
+        "[docs/README.md](docs/README.md).",
+        ""
+      ]
+    },
+    "review": {
+      "role": "reviewed_documentation_scope",
+      "value": "Library description and stable local pack navigation."
+    },
+    "view-path": {
+      "role": "original_document_address",
+      "value": "README.md"
+    }
+  },
+  "id": "lisa:easypicker:resource:library-introduction",
+  "kind": "resource",
+  "lifecycle": {
+    "goal": "unknown",
+    "implementation": "unknown",
+    "merge": "unknown",
+    "release": "unknown",
+    "retention": "Preserve exact original bytes, physical owner and historical qualifications.",
+    "runtime_verification": "NOT_RUN",
+    "source_verification": "UNKNOWN"
+  },
+  "owner": "android_projects/android_gisapp/easypicker",
+  "provenance": {
+    "manifest": "agent-system/provenance/documentation.json",
+    "scopes": [
+      "lisa:easypicker:resource:library-introduction"
+    ]
+  },
+  "relations": [],
+  "schema_version": 2,
+  "status": "active",
+  "topic": "documentation"
+}

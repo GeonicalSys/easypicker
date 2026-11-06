@@ -1,0 +1,45 @@
+{
+  "applicability": {
+    "conditions": [],
+    "paths": [],
+    "review_status": "unknown",
+    "scope_refs": [],
+    "unknown_behavior": "include_with_unknown_reason"
+  },
+  "execution_permission": false,
+  "facets": {
+    "definition": {
+      "role": "reviewed_module_manifest_definition",
+      "value": {
+        "id": "attachment-download-staging",
+        "path": "easypicker/easypicker/src/main/java/com/keenfin/easypicker/DownloadPhotoIntentService.java"
+      }
+    },
+    "manifest-field": {
+      "role": "reviewed_module_manifest_manifest_field",
+      "value": "storage_contracts"
+    }
+  },
+  "id": "lisa:easypicker:contract:attachment-download-staging",
+  "kind": "contract",
+  "lifecycle": {
+    "goal": "unknown",
+    "implementation": "unknown",
+    "merge": "unknown",
+    "release": "unknown",
+    "retention": "Preserve exact manifest owner, ordered typed fields and original Git source.",
+    "runtime_verification": "NOT_RUN",
+    "source_verification": "UNKNOWN"
+  },
+  "owner": "android_projects/android_gisapp/easypicker",
+  "provenance": {
+    "manifest": "agent-system/provenance/easypicker-module-manifest.json",
+    "scopes": [
+      "lisa:easypicker:contract:attachment-download-staging"
+    ]
+  },
+  "relations": [],
+  "schema_version": 2,
+  "status": "active",
+  "topic": "easypicker-module-manifest"
+}
