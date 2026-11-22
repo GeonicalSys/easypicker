@@ -1,8 +1,19 @@
 {
   "applicability": {
     "conditions": [],
-    "paths": [],
-    "review_status": "unknown",
+    "paths": [
+      {
+        "repository": "android_projects/android_gisapp/easypicker",
+        "include": [
+          ".githooks/pre-push",
+          "docs/README.md",
+          "tools/check_update_reports.py",
+          "update-reports/README.md"
+        ],
+        "exclude": []
+      }
+    ],
+    "review_status": "reviewed",
     "scope_refs": [],
     "unknown_behavior": "include_with_unknown_reason"
   },

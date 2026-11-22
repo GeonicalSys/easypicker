@@ -1,8 +1,18 @@
 {
   "applicability": {
     "conditions": [],
-    "paths": [],
-    "review_status": "unknown",
+    "paths": [
+      {
+        "repository": "android_projects/android_gisapp/easypicker",
+        "include": [
+          "README.md",
+          "docs/README.md",
+          "easypicker/src/main"
+        ],
+        "exclude": []
+      }
+    ],
+    "review_status": "reviewed",
     "scope_refs": [],
     "unknown_behavior": "include_with_unknown_reason"
   },
