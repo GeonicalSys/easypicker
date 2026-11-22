@@ -1,8 +1,27 @@
 {
   "applicability": {
     "conditions": [],
-    "paths": [],
-    "review_status": "unknown",
+    "paths": [
+      {
+        "repository": "android_projects/android_gisapp",
+        "include": [
+          ".gitmodules",
+          "docs/architecture/overview.md",
+          "docs/runbooks/upstream-sync.md"
+        ],
+        "exclude": []
+      },
+      {
+        "repository": "android_projects/android_gisapp/easypicker",
+        "include": [
+          "docs/README.md",
+          "docs/manifest.yaml",
+          "easypicker/src/main"
+        ],
+        "exclude": []
+      }
+    ],
+    "review_status": "reviewed",
     "scope_refs": [],
     "unknown_behavior": "include_with_unknown_reason"
   },
