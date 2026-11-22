@@ -1,8 +1,25 @@
 {
   "applicability": {
     "conditions": [],
-    "paths": [],
-    "review_status": "unknown",
+    "paths": [
+      {
+        "repository": "android_projects/android_gisapp",
+        "include": [
+          "docs/registry/upstream-overlaps.yaml",
+          "docs/scripts/validate_docs.py"
+        ],
+        "exclude": []
+      },
+      {
+        "repository": "android_projects/android_gisapp/easypicker",
+        "include": [
+          "agent-system/provenance/structured-views.json",
+          "docs/manifest.yaml"
+        ],
+        "exclude": []
+      }
+    ],
+    "review_status": "reviewed",
     "scope_refs": [],
     "unknown_behavior": "include_with_unknown_reason"
   },
